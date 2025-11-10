@@ -3,11 +3,9 @@ name: Test Suite
 
 on:
   push:
-    branches: ["main"]
+    branches: ["**"]
   pull_request:
     branches: ["main"]
-
-      - master
 env:
   PIP_INDEX_URL: https://:2024-11-18T19:45:02.027443Z@time-machines-pypi.sealsecurity.io/
 jobs:
